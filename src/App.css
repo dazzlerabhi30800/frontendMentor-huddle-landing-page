@@ -14,7 +14,7 @@ body {
     background-color : hsl(257, 40%, 49%);
 }
 
-@media screen and (min-width : 1400px) {
+@media screen and (min-width : 1500px) {
     .container {
         background-image: url('./Components/images/bg-desktop.svg');
         background-repeat: no-repeat;
