@@ -55,6 +55,7 @@
     font-size : 1.2rem;
     cursor: pointer;
     transition: all 300ms ease-in-out;
+    font-weight: bold;
 }
 
 
@@ -68,10 +69,12 @@
 .footer > .brand--logo {
     border : 1px solid white;
     border-radius : 50%;
-    padding : 7px 10px;
+    padding : 7px 9px;
     cursor : pointer;
     color: white;
     transition : all 300ms ease-in-out;
+    display: flex;
+    align-items : center;
 }
 .footer > .brand--logo:hover {
     border-color : rgb(250, 100, 225);
@@ -79,4 +82,59 @@
 }
 .brand--logo > i {
     font-size : 1.3rem;
+    align-self: center;
+}
+
+@media screen and (min-width : 1500px) {
+    .component {
+        flex-direction: row;
+        margin-top : 10rem;
+        gap : 1rem;
+    }
+    .svg--wrapper {
+        float: right;
+        flex-basis: 100%;
+    }
+    .svg--wrapper > img {
+        width : 860px;
+        height : 600px;
+        object-fit: cover;
+    }
+
+    .text--wrapper {
+        padding : 1rem 4rem;
+        float: left;
+        text-align : left;
+        justify-content: initial;
+        align-items: initial;
+        flex-basis : 100%;
+        height: fit-content;
+    }
+
+    .heading {
+        width : 30vw;
+    }
+
+   .description {
+        width : 40vw;
+        font-size : 1.5rem;
+    }
+   .btn > button:hover {
+       background: hsl(300, 69%, 71%);
+       color : white;
+       font-weight: bold;
+   } 
+
+   .footer {
+       position: absolute;
+       bottom : 2rem;
+       right: 6rem; 
+   }
+
+   .footer > .brand--logo {
+       border : 3px solid white;
+   }
+   .brand--logo > i {
+       font-weight : 600;
+   }
 }
