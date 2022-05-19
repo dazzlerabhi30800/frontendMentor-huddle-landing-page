@@ -20,9 +20,12 @@
     gap: 1rem;
     margin: 1.5rem;
 }
+.svg--wrapper {
+    padding : 0 1rem;
+}
 .svg--wrapper > img {
-    width : 420px;
-    height: 320px;
+    width : 350px;
+    height: 300px;
     object-fit: contain;
 }
 
@@ -37,13 +40,13 @@
     margin-top : 5px;
     font-size : 2rem;
     color : white;
-    width : 70vw;
+    width : 90vw;
 }
 
 .description {
     font-size : 1rem;
     color: white;
-    width : 62vw;
+    width : 80vw;
     line-height : 1.5;
 }
 

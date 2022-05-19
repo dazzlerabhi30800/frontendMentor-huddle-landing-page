@@ -5,13 +5,13 @@
 }
 html {
   width : 100%;
-  overflow : hidden;
+  overflow-x : hidden;
 }
 body {
   margin : 0;
   position: relative;
   width : 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .container {
     min-height : 100vh;
@@ -19,6 +19,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color : hsl(257, 40%, 49%);
+    padding-bottom : 1rem;
 }
 
 @media screen and (min-width : 1500px) {
