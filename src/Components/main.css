@@ -1,0 +1,82 @@
+
+.logo--img {
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+}
+.logo--img > img {
+    width : fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+
+/* Main Component  */
+.component {
+    display : flex;
+    flex-direction : column;
+    padding : 1rem 1rem;
+    align-items: center;
+    text-align : center;
+    gap: 1rem;
+    margin: 1.5rem;
+}
+.svg--wrapper > img {
+    width : 600px;
+    height: 450px;
+    object-fit: contain;
+}
+
+.text--wrapper {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.heading {
+    margin-top : 5px;
+    font-size : 3rem;
+    color : white;
+    width : 70vw;
+}
+
+.description {
+    font-size : 1.2rem;
+    color: white;
+    width : 62vw;
+    line-height : 1.5;
+}
+
+.btn > button {
+    outline : none;
+    border : none;
+    padding : 10px 5rem;
+    border-radius : 30px;
+    font-size : 1.2rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+
+/* Footer  */
+.footer {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    gap : 1rem;
+}
+.footer > .brand--logo {
+    border : 1px solid white;
+    border-radius : 50%;
+    padding : 7px 10px;
+    cursor : pointer;
+    color: white;
+    transition : all 300ms ease-in-out;
+}
+.footer > .brand--logo:hover {
+    border-color : rgb(250, 100, 225);
+    color : rgb(236, 95, 201);
+}
+.brand--logo > i {
+    font-size : 1.3rem;
+}
