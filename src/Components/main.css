@@ -21,8 +21,8 @@
     margin: 1.5rem;
 }
 .svg--wrapper > img {
-    width : 600px;
-    height: 450px;
+    width : 420px;
+    height: 320px;
     object-fit: contain;
 }
 
@@ -35,13 +35,13 @@
 
 .heading {
     margin-top : 5px;
-    font-size : 3rem;
+    font-size : 2rem;
     color : white;
     width : 70vw;
 }
 
 .description {
-    font-size : 1.2rem;
+    font-size : 1rem;
     color: white;
     width : 62vw;
     line-height : 1.5;
@@ -56,6 +56,10 @@
     cursor: pointer;
     transition: all 300ms ease-in-out;
     font-weight: bold;
+}
+.btn > button:hover {
+    background:hsl(300, 69%, 71%);
+    color: white;
 }
 
 
